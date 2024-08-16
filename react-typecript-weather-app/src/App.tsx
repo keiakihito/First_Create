@@ -1,9 +1,11 @@
 //App.tsx
-
+import Title from "./components/Title";
+import Form from "./components/Form"
 const App = ()=>{
     return (
         <div>
-            <h1 className ="test">Hello World</h1>
+            <Title/>
+            <Form/>
         </div>
     )
 }
